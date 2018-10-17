@@ -2,6 +2,7 @@ body {
   font-size: 14px;
 }
 
+/*** PAGE NAVIGATION ***/
 nav {
   background-color: yellow;
   height: 100px;
@@ -10,11 +11,24 @@ nav {
   width: 100%;
 }
 
+/*** SECTIONS ***/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+.element {
+  background-color: green;
+  height: 100px;
+  margin 10px 0;
+  width: 100%;
+}
+
+.element:nth-child(7), .element:nth-child(8), .element:nth-child(9) {
+    background: red;
+}
+
+/*** TYPOGRAPHY ***/
 h1 {
   font-family sans-serif;
   font-size: 2em;
@@ -27,15 +41,4 @@ h1 {
 
 h3 {
   font-size: 1.3em;
-}
-
-.element {
-  background-color: green;
-  height: 100px;
-  margin 10px 0;
-  width: 100%;
-}
-
-.element:nth-child(7), .element:nth-child(8), .element:nth-child(9) {
-    background: red;
 }
